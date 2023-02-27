@@ -21,7 +21,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "release": "auto shipit --base-branch=main"
+    "release": "auto shipit --base-branch=main",
+    "chromatic": "npx chromatic --project-token=ce9ef19b67f7"
   },
   "eslintConfig": {
     "extends": [
@@ -75,11 +76,24 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "auto": "^10.42.0",
+    "chromatic": "^6.17.1",
     "cross-env": "^7.0.3"
   },
   "description": "Storybook design systems",
   "main": "dist/index.js",
-  "repository": "https://github.com/aalselius/learnstorybook-design-system.git",
-  "author": "AAlselius <alselius@telia.com>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalselius/learnstorybook-design-system.git"
+  },
+  "author": {
+    "name": "AAlselius",
+    "email": "alselius@telia.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aalselius/learnstorybook-design-system/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/aalselius/learnstorybook-design-system#readme",
+  "_id": "@aalselius/learnstorybook-design-system@0.1.1"
 }
