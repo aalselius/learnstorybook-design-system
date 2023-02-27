@@ -1,9 +1,7 @@
-# v0.1.1 (Thu Feb 23 2023)
+# v0.1.0 (Tue Mar 09 2021)
 
-#### ⚠️ Pushed to `main`
-
-- first commit ([@aalselius](https://github.com/aalselius))
+- Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components.
 
 #### Authors: 1
 
-- Alexandra Fagerström Alselius ([@aalselius](https://github.com/aalselius))
+- [your-username](https://github.com/your-username)

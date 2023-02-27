@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "release": "auto shipit --base-branch=main"
   },
   "eslintConfig": {
     "extends": [
@@ -77,7 +78,7 @@
     "cross-env": "^7.0.3"
   },
   "description": "Storybook design systems",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/aalselius/learnstorybook-design-system.git",
   "author": "AAlselius <alselius@telia.com>",
   "license": "MIT"
